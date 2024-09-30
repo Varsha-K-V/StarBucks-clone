@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body {
+    overflow-x: none;
+}
+.header{
+    width: 100%;
+    height: 75px;
+    border: 1px;
+    display: flex;
+}
+.header .logo img{
+    height: 55px;
+    width: 65px;
+    padding-top: 10px;
+    padding-left: 5px; 
+} 
+.header .left ul{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 25px;
+   margin-top: 30px;
+   color: black;
+   font-weight: 700;
+   
+
+}
+
+.header .right ul{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 600px;
+    gap: 25px;
+    color: black;
+    font-weight: 700;
+}
+.signin{
+    border-radius: 15px;
+    width: 71px;
+    height: 30px;
+}
+.joinnow{
+    width: 77px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: black;
+    color: white;
+}
+
+
+.container1{
+    /* width: 100%;  */
+    /* height: 500px; */
+    display: flex;
+}
+.container1 .content1{
+    width: 50%;
+    height: 500px;
+    background-color: #006241;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.container1 .content1 h1{
+    color: white;
+    font-size: 50px;
+}
+.container1 .content1 h2{
+    color: white;
+   font-size: 25px;
+}
+.container1 .content1 button{
+  
+    background-color: #006241;
+    color: white;
+    width: 178px;
+    height: 35px;
+    border-radius: 22px;
+    border-color: white;
+    box-shadow: none;
+    font-size: 15px;
+    
+    
+}
+
+.container1 .image1 {
+    width: 50%;
+    height: 500px;
+}
+.container1 .image1 img{
+    width: 100%;
+    height: 500px;
+}
+.container2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.container2 .image2 {
+    width: 50%;
+    height: 500px;
+}
+.container2 .image2 img{
+    width: 100%;
+    height: 500px;
+}
+.container2 .content2{
+    width: 50%;
+    height: 500px;
+    background-color: #9e2240;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container2 .content2 h1{
+    color: white;
+    font-size: 50px;
+}
+.container2 .content2 h2{
+    color: white;
+    font-size: 25px;
+}
+.container2 .content2 button{
+    background-color: #9e2240;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 22px;
+    border-color: white;
+    box-shadow: none;
+    font-size: 15px;
+}
+.container3{
+   
+   
+    display: flex;
+}
+.container3 .content3{
+    width: 50%;
+    height: 400px;
+    background-color: #006241;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container3 .content3 h1{
+    font-size: 30px;
+    color: white;
+}
+.container3 .content3 h2{
+    font-size:25px;
+    color: white;
+}
+.container3 .content3 button{
+    background-color:#006241;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 22px;
+    border-color: white;
+    box-shadow: none;
+}
+.container3 .image3{
+    width: 50%;
+    height: 400px;
+}
+.container3 .image3 img{
+    width: 100%;
+    height:400px ;
+}
+.container4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.container4 .image4{
+    width: 50%;
+    height: 500px;
+}
+.container4 .image4 img{
+    width: 100%;
+    height: 500px;
+}
+.container4 .content4{
+    width: 50%;
+    height: 500px;
+    background-color: #fa745c;
+    color: #1e3932;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.container4 .content4 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.container4 .container4 h2{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.container4 .content4 button{
+    background-color: #fa745c;
+    color: black;
+    width: 110px;
+    height: 34px;
+    border-radius: 22px;
+    border-color:black ;
+    box-shadow: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.container5{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.container5 .content5{
+    width: 50%;
+    height: 400px;
+    background-color: #d4e9e2;
+    color: #1e3932;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.container5 .content5 h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.container5 .content5 h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.container5 .content5 button{
+    background-color: #d4e9e2;
+    color: black;
+    width: 110px;
+    height: 34px;
+    border-radius: 22px;
+    border-color:black ;
+    box-shadow: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.container5 .image5{
+    width: 50%;
+    height: 400px;
+}
+.container5 .image5 img{
+    width: 100%;
+    height: 400px;
+
+}
+.paragraph1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph3{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph4{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.container6{
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 25px;
+}
+.container6 ul{
+    margin-left: 50px;
+    font-size: 18px;
+}
+.symbols{
+    padding-left: 75px;
+    height: 50px;
+    padding-top: 30px;
+    font-size: 30px;
+
+}
+.symbols i{
+    padding-right: 15px;
+    width: 25px;
+    height: 30px;
+    
+}
+.footer{
+    margin-left: 75px;
+    font-size: 18px;
+}
+.footer h1{
+    font-size: 18px;
+    font-weight: lighter;
+    
+}
